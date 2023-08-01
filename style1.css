@@ -1,0 +1,75 @@
+table {
+  background-color: lightblue;
+  border-collapse: collapse;
+  width: 50%; /* измените на желаемую ширину */
+  margin: 0 auto; /* добавлено для выравнивания по центру */
+}
+
+/* остальной CSS код остается без изменений */
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+h3 {
+  font-size: 36px;
+  color: #333333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+body {
+  background-color: #8cb6d4;
+  font-family: Arial, sans-serif;
+}
+ h1 {
+  font-size: 36px;
+  color: #333333;
+  }
+ button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #91b3f2; /* blue фон */
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #666666; /* Серый фон при наведении */
+}
+form {
+  width: 610px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.inp_form {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #494991; /* violet граница */
+  border-radius: 15px;
+  font-size: 16px;
+  color: #91b3f2; /* blue текст */
+}
+
+.inp_form:focus {
+  outline: none;
+}
+p{
+  font-size: 20px;
+  color: #333333;
+   text-align: center;
+}
